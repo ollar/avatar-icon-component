@@ -19,13 +19,12 @@ export default Component.extend({
   ]),
 
   classNames: ['icon-image'],
-  classNameBindings: ['data.image:has-image'],
+  classNameBindings: ['image:has-image'],
 
   name: computed('data.username', function() {
     return this.getWithDefault('data.username', 'anonymous');
   }),
 
-  image: computed.readOnly('data.images.firstObject'),
   imageUrl: computed.readOnly('image.url'),
 
   initials: computed('name', function() {
