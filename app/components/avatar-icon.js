@@ -1,0 +1,1 @@
+export { default } from 'avatar-icon-component/components/avatar-icon';
