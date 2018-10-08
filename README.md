@@ -1,7 +1,7 @@
 avatar-icon-component
 ==============================================================================
 
-[Short description of the addon.]
+A component for displaying user's avatar image or inicials;
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +14,17 @@ ember install avatar-icon-component
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+`{{avatar-icon data=userData image=imageModel _size=100}}`
+
+userData = {
+    username: String,
+}
+
+imageModel = {
+    url: String
+}
+
+_size: Number - Avatar size
 
 
 Contributing
