@@ -32,6 +32,7 @@ export default Component.extend({
     return this.get('name')
       .trim()
       .split(' ')
+      .filter(el => Boolean(el))
       .map(item => item[0].toUpperCase())
       .slice(0, 2)
       .join('');
