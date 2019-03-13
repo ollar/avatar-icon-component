@@ -1,6 +1,6 @@
 {
   "name": "avatar-icon-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A component for displaying user's avatar image or inicials",
   "keywords": [
     "ember-addon",
