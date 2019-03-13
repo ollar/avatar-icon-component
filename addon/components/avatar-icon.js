@@ -53,12 +53,8 @@ export default Component.extend({
 
   // rewrite this
   updateStyles() {
-    this.$().css({
-      backgroundColor: this.get('backgroundColour'),
-      height: this._size,
-      width: this._size,
-      lineHeight: this._size + 'px',
-    });
+    this.element.style.setProperty('--backgroundColour', this.get('backgroundColour'));
+    this.element.style.setProperty('--size', `${this._size}px`);
   },
 
   didRender() {

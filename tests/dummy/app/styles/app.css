@@ -1,0 +1,10 @@
+.icon-image{
+    --backgroundColour: #ccc;
+    --size: 50px;
+
+    background-color: var(--backgroundColour);
+    height: var(--size);
+    width: var(--size);
+    line-height: var(--size);
+    text-align: center;
+}
