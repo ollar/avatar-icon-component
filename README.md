@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ollar/avatar-icon-component.svg?branch=master)](https://travis-ci.org/ollar/avatar-icon-component)
+
 avatar-icon-component
 ==============================================================================
 
